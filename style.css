@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+html,head{
+    height: 100%;
+    width:100%;
+}
+
+/* utility classes */
+h1{
+    font-size: 8vw;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+h2{
+    font-size: 5vw;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+h3{
+    font-size: 4vw;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+/* top */
+.top{
+    position: relative;
+    background-image: url(assets/WhatsApp\ Image\ 2025-05-06\ at\ 23.09.49_09c83b05.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top h1{
+    text-align: center;
+}
+
+/* nav */
+.nav{
+    position: relative;
+    display: flex;
+    border-bottom: solid;
+    height: 11.5vh;
+}
+
+#navl img{
+    width: 12vw;
+    border-radius: 20vw;
+    margin-top: 3vh;
+    margin-left: 5vw;
+}
+
+#navl h2{
+    /* text-align: center; */
+    transform: translate(20vw, -5.5vh);
+}
+
+#navr img{
+    width: 8vw;
+    height: 10vw;
+    transform: translate(70vw, 3.2vh);    
+}
+
+/* main */
+#mainup img{
+    width: 100vw;
+}
+
+#maindown h1{
+    text-align: center;
+}
+
+#maindown h3{
+    text-align: center;
+}
+
+/*  companies trusting us */
+#comp1 h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#comp2 img:nth-child(1){
+    width: 40vw;
+    margin-left: 10vw;
+}
+
+#comp2 img:nth-child(2){
+    width: 25vw;
+    height: 10vh;
+}
+
+#comp2 img:nth-child(3){
+    width: 40vw;
+    margin-left: 10vw;
+}
+
+#comp2 img:nth-child(4){
+    width: 40vw;
+    position: absolute;
+    padding-top: 4vh;
+    padding-left: 2vw;
+}
+
+#comp2 img:nth-child(5){
+    width: 40vw;
+    margin-left: 10vw;
+}
+
+#comp2 img:nth-child(6){
+    width: 30vw;
+    position: absolute;
+    padding-top: 1vh;
+    padding-left: 2vw;
+}
+
+/* features */
+#feat1 h2{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+#feat21 img:nth-child(1){
+    border-radius: 35vw;
+    width: 25vw;
+    margin-left: 10vw;
+    transform: translate(0vw,-2vh);
+}
+
+#feat21 img:nth-child(2){
+    border-radius: 50vw;
+    width: 35vw;
+    margin-left: 20vw;
+    margin-top: -10vw;
+}
+
+#feat22 h2:nth-child(1){
+    transform: translate(5vw, -2.5vh);
+    font-size: 4vw;
+}
+
+#feat22 h2:nth-child(2){
+   transform: translate(12vw, -2.5vh);
+    font-size: 4vw;
+} 
+
+#feat22{
+    display: flex;
+}
+
+#feat23{
+    display: flex;
+}
+
+#feat23 h3:nth-child(1){
+    font-size: 3vw;
+    transform: translate(5vw, -2vh);
+    width: 40%;
+    color: rgb(141, 209, 209);
+}
+
+#feat23 h3:nth-child(2){
+    font-size: 3vw;
+    transform: translate(9vw, -2vh);
+    width: 50%;
+    color: rgb(141, 209, 209);
+}
+
+#feat31 img:nth-child(1){
+    border-radius: 35vw;
+    width: 25vw;
+    margin-left: 10vw;
+    transform: translate(0vw,-2vh);
+}
+
+#feat31 img:nth-child(2){
+    border-radius: 50vw;
+    width: 22vw;
+    margin-left: 20vw;
+    transform: translate(0vw, -3vh);
+}
+
+#feat32 h3:nth-child(1){
+    font-size: 3vw;
+    transform: translate(5vw, -2vh);
+    width: 40%;
+    color: rgb(141, 209, 209);
+}
+
+#feat32 h3:nth-child(2){
+    font-size: 3vw;
+    transform: translate(5vw, -2vh);
+    width: 50%;
+    color: rgb(141, 209, 209);
+}
+
+#feat32{
+    display: flex;
+}
+
+#feat42{
+    display: flex;
+}
+
+#feat42 h2:nth-child(1){
+    transform: translate(5vw, -2.5vh);
+    font-size: 4vw;
+}
+
+#feat42 h2:nth-child(2){
+   transform: translate(8vw, -2.5vh);
+    font-size: 4vw;
+} 
+
+/* other features */
+#ofh h2{
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+#of1 img{
+    transform: translate(12vw);
+}
+
+#of1 h2{
+    text-align: center;
+}
+
+#of1 h3{
+    text-align: center;
+    color: rgb(141, 209, 209);
+}
+
+#of1{
+    /* border-bottom: solid; */
+    border-top: solid;
+}
+
+/* animation */
+.animation{
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+    column-gap: 10px;
+}
+
+#an{
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+}
+
+#an:nth-child(1){
+    background-color: rgb(184, 177, 177);
+    animation: an1 1s ease-in 0s infinite ;
+}
+
+#an:nth-child(2){
+    background-color: rgb(134, 129, 129);
+    animation: an2 1s ease-in 0.2s infinite ;
+}
+
+#an:nth-child(3){
+    background-color: rgb(82, 79, 79);
+    animation: an3 1s ease-in 0.4s infinite ;
+}
+
+#an:nth-child(4){
+    background-color: rgb(54, 46, 46);
+    animation: an4 1s ease-in 0.6s infinite ;
+}
+
+@keyframes an1 {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes an2 {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes an3 {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes an4 {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+/* examples */
+#exh{
+    text-align: center;
+}
+
+#eximg img{
+    transform: translate(15vw);
+    width: 70vw;
+    height: 25vh;
+}
+
+#exh3 h3{
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(255, 161, 161);
+}
+
+#eximg2 img{
+    transform: translate(19vw);
+}
+
+#exh32 h3{
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(255, 161, 161);
+}
+
+#eximg3 img{
+    transform: translate(19vw);
+}
+
+#exh33 h3{
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(255, 161, 161);
+}
+
+#eximg4 img{
+    transform: translate(15vw);
+    width: 70vw;
+    height: 25vh;
+}
+
+#exh34 h3{
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(255, 161, 161);
+}
+
+/* end */
+.test{
+    background-color: #74b8ec;
+    width: 100%;
+    /* height: 10vh; */
+    position: relative;
+}
+
+#testh{
+    text-align: center;
+    color: rgb(255, 230, 0);
+}
+
+/* footer */
+.footer{
+    background-color: #74b8ec;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.footer img{
+    width: 10vw;
+    margin-top: 1vh;
+}
+
+.footer h3{
+    margin-bottom: 1vh;
+}
